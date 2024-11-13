@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Foodies"
 include(":app")
+include(":navigation")
+include(":feature_catalog")

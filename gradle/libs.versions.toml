@@ -13,6 +13,8 @@ glide-compose-version = "1.0.0-beta01"
 moshi = "2.4.0"
 retrofit = "2.9.0"
 navigation-compose = "2.8.3"
+appcompat = "1.7.0"
+material = "1.12.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,9 +36,12 @@ glide = { group = "com.github.bumptech.glide", name = "compose", version.ref = "
 moshi_converter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "moshi" }
 retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 
